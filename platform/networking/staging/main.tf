@@ -3,7 +3,7 @@ terraform {
     organization = "pokgak-org"
 
     workspaces {
-      name = "networking"
+      name = "networking-staging"
     }
   }
 
