@@ -6,8 +6,10 @@ The kubernetes provider relies on the EKS cluster being created first. When firs
 terraform apply -auto-approve -target=module.eks.aws_eks_cluster.this[0]
 ```
 
-After that command fiished without error, then run the full apply:
+After that command finished without error, then run the full apply:
 
 ```
 terraform apply -auto-approve
 ```
+
+import aws-auth to be managed by terraform
