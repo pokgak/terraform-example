@@ -45,6 +45,9 @@ module "eks" {
   # without this we will get timeout error
   cluster_endpoint_public_access = true
 
+  # ACG doesn't allow IRSA
+  enable_irsa = false
+
   cluster_addons = {
     coredns = {
       most_recent = true
