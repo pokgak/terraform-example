@@ -1,5 +1,4 @@
-
-
-resource "aws_ec2_instance_connect_endpoint" "staging" {
-  subnet_id = module.staging_vpc.private_subnets[0]
-}
+# this resource etakes to long to apply
+# resource "aws_ec2_instance_connect_endpoint" "staging" {
+#   subnet_id = module.staging_vpc.private_subnets[0]
+# }
